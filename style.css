@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* esto es para el header de la foto */
+.div-left p{
+    padding: 100px;
+}
+
+.div-left a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-decoration: none;
+    color: brown;
+}
+
+.div-left a:hover{
+    color: black;
+}
+
+
+.imagen-principal{
+    text-align: right;
+    height: 400px;
+    width: 400px;
+    border-radius: 250px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg);
+    /* background-image: url(/images/code-1839406__340.jpg); */
+    object-fit: cover;
+}
+#sobre-mi div{
+    padding: 20px;
+    text-align: center;
+}
+
+/* todo lo del nav  */
+.container-nav{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+    /* position: sticky; */
+    object-position: fixed;
+
+}
+.container-nav .logo{
+    margin: 0%;
+    padding: 25px;
+    color: brown;
+    font-size: 1.45em;
+    font-weight: bold;
+}
+
+.container-nav a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.container-nav a:hover{
+    color: brown;
+}
+
+/* section sobre mi  */
+.sobre-mi .container{
+    text-align: center;
+    padding: 90px 12px 0px 12px;
+}
+
+.sobre-mi li{
+    margin: 16px 0px;
+    font-weight: bold;
+    list-style: none;
+    text-align: justify;
+}
+
+.tarjeta-estudio{
+    margin: 40px 15px;
+}
+
+.tarjeta-estudio img{
+    margin: 15px 15px;
+}
+
+.subtitulo-tarjetas{
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    color: brown;
+}
+
+.tarjeta-lenguaje{
+    margin: 55px 25px;
+}
+
+/* section para tajetas cursos */
+.tarjeta-cursos{
+    height: 400px;
+    width: 300px;
+    border: 1px solid saddlebrown;
+}
+.tarjeta-cursos img{
+    height: 200px;
+    /* width: 300px; */
+    border-radius: 100%;
+    object-fit: cover;
+}
+.tarjeta-cursos p{
+    padding: 10px;
+    font-size: large;
+    font-family: serif;
+}
+.tarjeta-cursos .titulo{
+    font-size: 40px;
+
+}
+/* section para tarjetas */
+.card-principal{
+    padding: 100px;
+}
+.tarjeta{
+    border:1px solid brown ;
+    height: 600px;
+    text-align: center;
+    margin: 20px 20px;
+}
+.tarjeta-img{
+    height: 400px;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.tarjeta-img img{
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.tarjeta-footer{
+    margin: 50px 10px;
+}
+
+/* section para proyectos*/
+.proyectos{
+    margin: 40px 100px;
+}
+.tarjetas-proyectos{
+    height: 200px;
+    width: auto;
+    padding: 40px 40px;
+    border: 1px solid brown;
+}
+
+.mi-cv{
+    text-align: center;
+    padding: 100px 100px;
+}
+
+/* section para contacto */
+
+.contacto{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90PX 50PX;
+}
+
+.contact > *{
+    padding:  1em;
+}
+.contact{
+    box-shadow: 0px 6px 10px 0px brown;
+    /* background-image: url(/imgs/1493938270-programacion-istock1.jpg); */
+}
+.contact-form{
+    background-color: bisque;
+    /* cambair color despues */
+    /* background-image: url(/imgs/Tipos-de-variables-en-programacion-2.jpg); */
+}
+.contact-form form{
+    margin: 0px;
+    padding: 7em;
+}
+.contact-form form p{
+    margin: 0px;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.2em;
+    border: none;
+    background: none;
+    outline: 1px;
+    /* border-bottom: 1px solid saddlebrown; */
+}
+.contact-form form button{
+    text-transform: uppercase;
+    background-color: brown;
+    border: 0;
+    padding: 1em;
+    color: white;
+}
+.contact-form form button:hover{
+    color: #000;
+    font-weight: bolder;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+.contact-info ul{
+    list-style: none;
+    padding: 0%;
+}
+.contact-info ul li{
+    padding: .3em;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p, .contact-info li{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* todo lo del footer */
+
+footer .container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero {
+    text-align: center;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    inset-block-end: unset;
+    padding: 30px;
+}
+#hero button{
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+#hero button:hover{
+    background-color: brown;
+    color: bisque;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+
+.copy{
+    padding: 25px;
+}
+
+.sobre-mi{
+    background-color: #000;
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392__340.jpg);
+}
+
+@media (min-width: 720px){
+    /* esto es nav */
+    header .container-nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .imagen-principal{
+        object-position: 25%;
+
+    }
+
+    /* esto de la section para contacto */
+    .contact > *{
+        padding: 2em;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 2em;
+        font-family:sans-serif;
+    }
+    .contact-form form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-form .block{
+        grid-column: 1/3;
+    }
+    .contact-info h3,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+
+    }
+    .contact-info{
+        padding-top: 250px;
+        text-align: right;
+        margin: 0 auto;
+    }
+
+}
+
